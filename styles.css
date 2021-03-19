@@ -1,0 +1,38 @@
+.wrapper {
+	padding-top: 30vh;
+	box-sizing: border-box;
+	height: 100vh;
+	background: url(./back2.jpg);
+	background-size: cover;
+
+}
+body {
+margin: 0;
+}
+.description, .title {
+font-family: sans-serif, arial;
+font-weight: 700;
+color: black;
+text-align: center;
+margin-bottom: 10vh;
+}
+.button {
+display: block;
+margin: auto;
+width: 250px;
+font-family: sans-serif, arial;
+font-size: 20px;
+line-height: 30px;
+font-weight: 700;
+text-decoration: none;
+text-transform: uppercase;
+color: #000;
+background: transparent;
+border: 5px solid;
+text-align: center;
+transition-duration: 0.5s;
+}
+.button:hover {
+background: #fff;	
+}
+
